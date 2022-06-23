@@ -126,6 +126,24 @@ def recibirAlumnos(clase, *alumnos):
 recibirAlumnos('Eduardo', 'Juancarlos', 'Jenny', 'Liy', 'Manunel', 'Cristian', 'Wilson', 'Alejandro')
 recibirAlumnos('Eduardo','Juan Carlos', 'Lily', 'Manuel','Wilson', 'Alejandro')
 
+# x = (param1, param2) => {...}
+# Funcion anonima (lambda function) en python
+sumatoria = lambda numero1, numero2: numero1 + numero2
+respuesta = sumatoria(10,5)
+print(respuesta)
+
+def sumatoriaNumeros(numero1, *numeros):
+    respuesta = 0
+    for numero in numeros:
+        respuesta += numero
+    respuesta += numero1
+    return respuesta
+
+# sumatoria = lambda numero1, *numero: numero1 + for valor in numero:
+respuesta = sumatoria(10,5,6,7)
+print(respuesta)
+
+# sumatoria = lambda numero1, 
 
 
 
