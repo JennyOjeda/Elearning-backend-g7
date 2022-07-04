@@ -112,6 +112,7 @@ resultado = contarElectrodomesticosPorAlmacen()
 print('En las Malvinas hay {}, en Cercado hay {} y en otros hay{} electrodomesticos'.format(resultado[0],resultado[1], resultado[2]))
 
 # si es una funcion queremos recibir un numero indeterminado de valores 
+# args > argumrntos 
 def recibirAlumnos(clase, *alumnos):
     # cuando un parametro tiene * al comienzo significa que ese parametro recibira n valores y lo convertira a una tupla
     # alumnos[0]= 'Juan'
