@@ -1,8 +1,17 @@
+# En Python el polimorfismo es la definicion del mismo metodo en diferentes clases pero con un comportamiento diferente
+
 class Usuario:
     def __init__(self, nombre, apellido):
         self.nombre = nombre
         self.apellido = apellido
 
+    def info(self):
+        return{
+            'nombre': self.nombre,
+            'apellidos': self.apellido
+        }
+
+        
 class Alumno(Usuario):
     def __init__(self, Nombre, apellido2, anio, seccion):
         self.anio = anio
