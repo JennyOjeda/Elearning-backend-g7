@@ -66,3 +66,16 @@ SET SQL_SAFE_UPDATES = false;
 
 -- DDL Data Definition Language( Lenguaje de definicion de datos)
 -- Definir la estructura que vamos a manejar en la base de datos(crear, modificar, y eliminar una tabla de BD)
+
+USE prueba;
+-- DELETE >Sirve para remover registros que ya no nos sirven 
+DELETE FROM producto WHERE nombre = 'Aguaymanto';
+
+
+
+
+
+
+
+
+
